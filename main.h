@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <limits.h>
+#include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -23,7 +24,7 @@ int print_hex_extra(unsigned long int num);
 int _strlenc(const char *s);
 int print_HEX_extra(unsigned int num);
 int print_exc_string(va_list val);
-int print HEX(va_list val);
+int print_HEX(va_list val);
 int print_hex(va_list val);
 int print_oct(va_list val);
 int print_bin(va_list val);

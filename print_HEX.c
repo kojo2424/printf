@@ -24,7 +24,7 @@ int print_HEX(va_list val)
 		array[i] = tem / 16;
 		tem /= 16;
 	}
-	for (i = counter - 1; i >= 0; i--;)
+	for (i = counter - 1; i >= 0; i--)
 	{
 		if (array[i] > 9)
 		{
